@@ -10,6 +10,8 @@
 </head>
 <body class="p-4">
   <h1>Schema Detector</h1>
+  <input id="detect-url-input" class="form-control mb-2" placeholder="Enter URL to scan" />
+  <button id="detect-url-btn" class="btn btn-info mb-2">Scan URL</button>
   <textarea id="detect-input" class="form-control mb-2" rows="6" placeholder="Paste JSON-LD here"></textarea>
   <button id="detect-btn" class="btn btn-primary mb-4">Detect</button>
   <div id="detect-result" class="accordion"></div>
@@ -20,7 +22,7 @@
   <select id="type-select" class="form-select mb-2">
     <option>Loading types...</option>
   </select>
-  <button id="make-form" class="btn btn-secondary mb-3">Generate Form</button>
+  <button id="generate-form-btn" class="btn btn-secondary mb-3">Generate Form</button>
   <form id="generator-form"></form>
   <button id="gen-json" class="btn btn-success mt-2">Generate JSON-LD</button>
   <pre id="json-output" class="mt-3 bg-light p-3"></pre>

@@ -37,7 +37,7 @@ document.getElementById('detect-btn').onclick = async () => {
 };
 
 // Generator: build form
-document.getElementById('make-form').onclick = async () => {
+document.getElementById('generate-form-btn').onclick = async () => {
   const type = document.getElementById('type-select').value;
   const form = document.getElementById('generator-form');
   form.innerHTML = '';
